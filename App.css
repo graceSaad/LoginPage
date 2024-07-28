@@ -1,0 +1,78 @@
+
+body {
+  background: linear-gradient(135deg, #42b740, #123d86);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Garamond;
+  font-weight: bold;
+}
+
+.App {
+
+  background-color: #cfdddf;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(41, 38, 38, 0.2);
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+label {
+  margin-bottom: 15px;
+  color: #000000;
+  /* margin-left: 19%; */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* margin-left: 35%; */
+}
+
+button {
+  padding: 10px;
+  background-color: #3a597a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+  margin-left: 35%;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button[type="button"] {
+  margin-left: 10px;
+  background-color: #142d43;
+  width: 50px;
+  height: 35px;
+}
+
+button[type="button"]:disabled {
+  background-color: #cccccc;
+}
+
+div {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+} 
